@@ -2,6 +2,16 @@
 .Rhistory
 .Rapp.history
 
+# Folders
+/Tables*
+/Thesis*
+/WilliamsComments*
+/CoauthorComments*
+/Drafts*
+/EcohydrologySubmissions*
+/Figures*
+/Literature*
+
 # Session Data files
 .RData
 
@@ -37,3 +47,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Google Drive
+desktop.ini

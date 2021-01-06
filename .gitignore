@@ -3,14 +3,8 @@
 .Rapp.history
 
 # Folders
-/Tables*
 /Thesis*
-/WilliamsComments*
-/CoauthorComments*
-/Drafts*
-/EcohydrologySubmissions*
-/Figures*
-/Literature*
+/Ecohydrology_Submissions*
 
 # Session Data files
 .RData

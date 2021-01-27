@@ -1,0 +1,77 @@
+ KINEROS2 25-Oct-2019
+
+ Title:                                                                       
+
+ Parameter File Used....... Control.par
+ Rainfall File Used........ Simulation_64mmhr.pre
+
+ Length of Run, minutes.... 60                  
+ Time Step, minutes........ 0.1                 
+ Use Courant criteria?..... N
+ Simulate Sed. Transport?.. Y
+ Multiplier file (if any).. N
+ Tabular Summary?.......... Y
+
+ Multipliers Used:
+
+ Saturated Conductivity... 1.0                 
+ Manning n................ 1.0                 
+ CV of Ksat............... 1.0                 
+ Capillary Drive Coeff.... 1.0                 
+ Intercepted Depth........ 1.0                 
+ Sediment Cohesion Coeff.. 1.0                 
+ Sediment Splash Coeff.... 1.0                 
+
+ 
+ Plane Element      1
+ 
+ Contributing area = 0.0049999 ha
+ 
+                                           theta   rel.sat.
+  surface initial water content =         0.0566   0.0200
+  estimated wilting point water content = 0.0545   0.0141
+  estimated field capacity =              0.0910   0.1156
+  3-parameter soil infiltration: alpha = 0.8000
+ 
+ Peak flow = 0.0005921 cu m /s (42.63357 mm/hr) at 45.00 min 
+ 
+ Peak sediment discharge = 0.0017753 kg/s at  45.00 min
+ 
+             Water balance                         Sediment balance
+ --------------------------------------        ------------------------
+   Rain:   2.399971 cu m    48.00000 mm               In:   0.000000 kg
+ Inflow:   0.000000 cu m     0.00000 mm        Deposited:   0.000000 kg
+ Infilt:   1.260221 cu m    25.20473 mm        Soil Loss:   4.057986 kg
+ Stored:   0.000000 cu m     0.00000 mm              Out:   4.052435 kg
+    Out:   1.137120 cu m    22.74267 mm 
+  Error:       0.11 %
+ 
+ 
+ 
+   1 elements Processed
+
+ Event Volume Summary:
+ 
+             Rainfall    48.00000 mm       2.399971 cu m 
+   Plane infiltration    25.20473          1.260221
+              Outflow    22.74267          1.137120
+ 
+ Error (Volume in - Volume out - Storage) < 1 percent
+ 
+ Total watershed area = 0.0049999 ha
+ 
+ Sediment yield = 810.4968 kg/ha 
+ 
+ Sediment yield by particle class:
+ 
+ Particle size (mm)       0.200       0.300       0.030       0.010       0.002
+      Yield (kg/ha)    503.6607    189.4386     77.4693     28.7786     11.1495
+   % of total yield       62.14       23.37        9.56        3.55        1.38
+ 
+ 
+                     Tabular Summary of Element Hydrologic Components
+
+    ID  Element Element Cumulated  Inflow  Rainfall Outflow   Peak    Total  Initial Sediment
+         Type    Area     Area                                Flow    Infil   Water   Yield  
+                   m^2     m^2     cu m     cu m     cu m     mm/hr   cu m   Content    kg   
+     1    Plane   50.00     50.00    0.000    2.400    1.137  42.634   1.260  0.0566      4.05

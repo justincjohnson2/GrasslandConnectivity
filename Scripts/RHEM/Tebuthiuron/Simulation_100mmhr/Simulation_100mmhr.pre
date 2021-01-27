@@ -1,0 +1,12 @@
+! User-defined storm hyetograph based on fine-scale rainfall simulations.
+! Duration = 0.75 hours
+
+BEGIN RG1
+  X = 0, Y = 0
+  SAT = 0.02
+  N = 2
+  TIME        DEPTH
+! (min)        (mm)
+  0.00         0.00
+  45.00        75.00
+END

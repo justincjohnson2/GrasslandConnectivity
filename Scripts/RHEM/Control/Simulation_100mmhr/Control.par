@@ -1,0 +1,42 @@
+! Parameter file for scenario: Control
+! Date built: February 28, 2020, 01:49 PM (Version 2.3)
+! Parameter units: DIAMS(mm), DENSITY(g/cc),TEMP(deg C)
+BEGIN GLOBAL 
+		CLEN	=	124.99848 
+		UNITS	=	metric 
+		DIAMS	=	0.002	0.01	0.03	0.3	0.2
+		DENSITY	=	2.6	2.65	1.8	1.6	2.65
+		TEMP	=	40 
+		NELE	=	1 
+END GLOBAL 
+BEGIN PLANE 
+		ID	=	1
+		PRINT	=	3
+		FILE	=	'Control_100mmhr.csv'
+		LEN	=	49.999392 
+		WIDTH	=	1.000 
+		CHEZY	=	5.8691881408246 
+		RCHEZY	=	5.8691881408246 
+		SL	=	0.104	,	0.104
+		SX	=	0.00	,	1.00 
+		CV	=	1.0000 
+		SAT	=	0.25 
+		PR	=	1 
+		KSS	=	2686.1126872337 
+		KOMEGA	=	0.000007747 
+		KCM	=	0.000299364300 
+		CA	=	1.000 
+		IN	=	0.0000 
+		KE	=	12.330252255429 
+		G	=	70 
+		DIST	=	0.55 
+		POR	=	0.4087 
+		ROCK	=	0.0000 
+		SMAX	=	1.0000 
+		ADF	=	0.00 
+		ALF	=	0.8000 
+		BARE	= 0 ! INACTIVE 
+		RSP	=	1.000 
+		SPACING	=	1.000 
+		FRACT	=	0.0137	0.0353	0.0951	0.233	0.6229
+END PLANE 

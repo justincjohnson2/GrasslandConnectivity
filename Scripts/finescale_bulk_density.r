@@ -5,9 +5,15 @@
 # Date:         1/5/21
 # Author:       Justin Johnson
 # ------------------------------------------------------------------------------
-# Install Packages
-library(tidyverse)  # More intuitive syntax
-library(car)        # For ANOVA
+# Install and load packages
+pkgs <- c('tidyverse','car')
+
+check <- sapply(pkgs,require,warn.conflicts = TRUE,character.only = TRUE)
+if(any(!check)){
+  pkgs.missing <- pkgs[!check]
+  install.packages(pkgs.missing)
+  check <- sapply(pkgs.missing,require,warn.conflicts = TRUE,character.only = TRUE)
+}
 
 # ------------------------------------------------------------------------------
 # Inputs
